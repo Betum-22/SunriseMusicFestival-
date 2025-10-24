@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Music Festival | Anjaw, Arunachal Pradesh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the Mishmi/Meyor pattern and Hero */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* Slate-900 */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(15, 23, 42, 0.8)), 
+                        url('https://placehold.co/1920x1080/0F172A/F97316?text=Spectacular+Sunrise+over+Anjaw+Mountains');
+            background-size: cover;
+            background-position: top center;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .pattern-divider {
+            /* Simulating a traditional textile pattern using a repeating background */
+            height: 80px;
+            background: repeating-linear-gradient(
+                45deg,
+                #991b1b, /* Deep Red */
+                #991b1b 10px,
+                #10b981 10px, /* Green */
+                #10b981 20px,
+                #f59e0b 20px, /* Amber */
+                #f59e0b 30px
+            );
+            border-top: 4px solid #F97316;
+            border-bottom: 4px solid #F97316;
+        }
+        .text-glow {
+            text-shadow: 0 0 5px #F97316, 0 0 10px rgba(249, 115, 22, 0.7);
+        }
+        /* Utility for smooth scrolling jump targets */
+        .section-anchor {
+            padding-top: 100px; /* Adjust based on fixed header height */
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-slate-900/90 backdrop-blur-sm p-4 border-b border-orange-600/30">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold text-orange-500 tracking-wider">
+                SUNRISE <span class="text-white">FEST</span>
+            </h1>
+            <!-- Updated Navigation Links -->
+            <nav class="hidden md:flex space-x-4 text-white text-sm font-semibold">
+                <a href="#about" class="hover:text-orange-500 transition duration-300">ABOUT</a>
+                <a href="#lineup" class="hover:text-orange-500 transition duration-300">LINEUP</a>
+                <a href="#merchandise" class="hover:text-orange-500 transition duration-300">MERCH</a>
+                <a href="#logistics" class="hover:text-orange-500 transition duration-300">LOGISTICS</a>
+                <a href="#committee" class="hover:text-orange-500 transition duration-300">ORGANIZERS</a>
+                <!-- NEW LINKS ADDED -->
+                <a href="#registration" class="hover:text-orange-500 transition duration-300">REGISTER</a>
+                <a href="#sponsors" class="hover:text-orange-500 transition duration-300">SPONSORS</a>
+                <a href="#tickets" class="py-2 px-4 bg-orange-600 hover:bg-orange-700 rounded-lg transition duration-300 shadow-lg">TICKETS 2026</a>
+            </nav>
+            <button class="md:hidden text-white text-xl">&#9776;</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="p-8 max-w-4xl">
+            <p class="text-xl sm:text-2xl text-orange-400 font-bold mb-4 uppercase tracking-widest text-glow">
+                India's Easternmost Sentinel
+            </p>
+            <h2 class="text-6xl sm:text-8xl lg:text-9xl font-extrabold tracking-tight mb-6 leading-none">
+                <span class="text-white">SUNRISE</span> <span class="text-orange-500 text-glow">MUSIC</span>
+            </h2>
+            <p class="text-2xl sm:text-3xl font-light text-slate-200 mb-10">
+                ANJAW DISTRICT, ARUNACHAL PRADESH
+            </p>
+            <div class="space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#tickets" class="inline-block py-3 px-12 bg-orange-600 hover:bg-orange-700 text-white text-xl font-bold rounded-full shadow-2xl transition transform hover:scale-105 duration-300">
+                    BOOK TICKETS
+                </a>
+                <a href="#lineup" class="inline-block py-3 px-12 bg-white/10 border-2 border-white text-white text-xl font-bold rounded-full hover:bg-white/20 transition duration-300">
+                    VIEW LINEUP
+                </a>
+            </div>
+            <p class="mt-8 text-lg font-semibold text-slate-300">
+                DEC 29, 2025 – JAN 02, 2026
+            </p>
+        </div>
+    </section>
+
+    <!-- Pattern Divider (Cultural Element) -->
+    <div class="pattern-divider"></div>
+
+    <!-- About Section (First Light of India) -->
+    <section id="about" class="section-anchor py-20 px-4 sm:px-8 bg-slate-800 text-center">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+                THE FIRST LIGHT OF INDIA
+            </h3>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
+                The Sunrise Music Festival is hosted in **Dong Village, Anjaw**, the easternmost point of India. More than a concert, it's a pilgrimage to witness the very first rays of the new year, blending raw nature, adventure, and the soul of the Mishmi and Meyor tribes.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="p-6 bg-slate-900 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <h4 class="text-2xl font-bold text-white mb-2">Dong Village</h4>
+                    <p class="text-slate-400">At 1,240m altitude, the village offers a serene backdrop unlike any other festival ground.</p>
+                </div>
+                <div class="p-6 bg-slate-900 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132c.57-.38.57-1.29 0-1.67z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h4 class="text-2xl font-bold text-white mb-2">5-Day Celebration</h4>
+                    <p class="text-slate-400">Trek, music, food, and culture from December 29th to ring in the New Year.</p>
+                </div>
+                <div class="p-6 bg-slate-900 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13M18.426 10.375L12 4 5.574 10.375"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13M18.426 10.375L12 4 5.574 10.375M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <h4 class="text-2xl font-bold text-white mb-2">Tri-Junction View</h4>
+                    <p class="text-slate-400">Located near the intersection of India, China, and Myanmar for a historic view.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lineup Section -->
+    <section id="lineup" class="section-anchor py-20 px-4 sm:px-8 bg-slate-900">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-5xl font-extrabold text-orange-500 mb-12">
+                MUSIC LINEUP 2026
+            </h3>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
+                Featuring a mix of global indie, national favorites, and vibrant folk fusion artists from Northeast India, celebrating the region's diverse soundscape.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <!-- Placeholder Artists (Dark/Vibrant Cards) -->
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+A" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">MISHMI BEATS</p>
+                    <p class="text-sm text-slate-300">Folk Fusion</p>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+B" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">The Looper</p>
+                    <p class="text-sm text-slate-300">Indie Rock</p>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+C" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">Dong Drones</p>
+                    <p class="text-sm text-slate-300">Ambient/Techno</p>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+D" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">Meyor Melody</p>
+                    <p class="text-sm text-slate-300">Acoustic</p>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+E" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">Zenith Wave</p>
+                    <p class="text-sm text-slate-300">Electronic</p>
+                </div>
+                <div class="bg-slate-800 p-4 rounded-xl shadow-2xl hover:bg-orange-600 transition duration-300">
+                    <img src="https://placehold.co/150x150/1E3A8A/ffffff?text=ARTIST+F" class="rounded-lg mb-3 w-full" alt="Artist Placeholder">
+                    <p class="text-white font-bold text-lg">Kaman Choir</p>
+                    <p class="text-sm text-slate-300">World Music</p>
+                </div>
+            </div>
+
+            <button class="mt-12 py-3 px-8 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-slate-900 transition duration-300">
+                + 15 MORE ACTS ANNOUNCED SOON
+            </button>
+        </div>
+    </section>
+
+    <!-- Merchandise Section -->
+    <section id="merchandise" class="section-anchor py-20 px-4 sm:px-8 bg-slate-800">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-5xl font-extrabold text-orange-500 mb-12">
+                OFFICIAL SUNRISE MERCHANDISE
+            </h3>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-10">
+                Take the spirit of Anjaw home. Our apparel features unique designs inspired by the Mishmi and Meyor traditional textile patterns and the iconic sunrise view.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Merch Item 1: T-Shirt -->
+                <div class="bg-slate-900 p-6 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/400x400/1E3A8A/ffffff?text=Sunrise+Tee" class="rounded-lg mb-4 w-full" alt="Sunrise T-Shirt">
+                    <h4 class="text-2xl font-bold text-white mb-1">DONG SUNRISE TEE</h4>
+                    <p class="text-orange-400 font-semibold mb-3">₹ 1,500</p>
+                    <p class="text-slate-400 text-sm mb-4">Available in Black, Deep Forest Green, and Sun Orange. Limited Stock.</p>
+                    <a href="#tickets" class="inline-block w-full py-2 bg-orange-600 text-white font-bold rounded-lg hover:bg-orange-700 transition duration-300">PRE-ORDER NOW</a>
+                </div>
+                <!-- Merch Item 2: Hoodie -->
+                <div class="bg-slate-900 p-6 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/400x400/1E3A8A/ffffff?text=Meyor+Pattern+Hoodie" class="rounded-lg mb-4 w-full" alt="Meyor Pattern Hoodie">
+                    <h4 class="text-2xl font-bold text-white mb-1">MEYOR WEAVE HOODIE</h4>
+                    <p class="text-orange-400 font-semibold mb-3">₹ 3,200</p>
+                    <p class="text-slate-400 text-sm mb-4">Heavy cotton blend, featuring embroidered tribal pattern on the sleeve.</p>
+                    <a href="#tickets" class="inline-block w-full py-2 bg-orange-600 text-white font-bold rounded-lg hover:bg-orange-700 transition duration-300">PRE-ORDER NOW</a>
+                </div>
+                <!-- Merch Item 3: Pin/Sticker Pack -->
+                <div class="bg-slate-900 p-6 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/400x400/1E3A8A/ffffff?text=Anjaw+Souvenir+Pack" class="rounded-lg mb-4 w-full" alt="Anjaw Souvenir Pack">
+                    <h4 class="text-2xl font-bold text-white mb-1">ANJAW SOUVENIR PACK</h4>
+                    <p class="text-orange-400 font-semibold mb-3">₹ 800</p>
+                    <p class="text-slate-400 text-sm mb-4">Festival lanyard, custom pin, and durable vinyl sticker set.</p>
+                    <a href="#tickets" class="inline-block w-full py-2 bg-orange-600/30 text-white font-bold rounded-lg hover:bg-orange-600/50 transition duration-300">VIEW DETAILS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultural & Adventure Section -->
+    <section id="culture" class="section-anchor py-20 px-4 sm:px-8 bg-slate-900">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-white text-center mb-12">
+                CULTURE, ADVENTURE & ECO-TOURISM
+            </h3>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Mishmi & Meyor Culture Text Block -->
+                <div class="space-y-6">
+                    <h4 class="text-3xl font-extrabold text-orange-500">
+                        THE SOUL OF ANJAW: MISHMI & MEYOR
+                    </h4>
+                    <p class="text-slate-300 text-lg">
+                        The festival is a celebration of the unique cultural heritage of the Mishmi (Tawrah/Kaman) and Meyor (Zakhring) tribes. Experience traditional **Tanggong** dances, ancient textile weaving demonstrations, and live storytelling of local myths and legends, preserving their deep connection to the land.
+                    </p>
+                    <ul class="text-slate-300 space-y-2 list-disc list-inside ml-4">
+                        <li class="font-semibold text-white">Traditional Handicrafts & Textiles</li>
+                        <li>Local cuisine and the famed Apong (rice beer)</li>
+                        <li>Interactions with village elders and cultural workshops</li>
+                        <li class="font-semibold text-white">Focus on sustainable, community-led tourism</li>
+                    </ul>
+                </div>
+
+                <!-- Adventure Image Block -->
+                <div class="bg-slate-800 p-6 rounded-xl shadow-2xl">
+                    <img src="https://placehold.co/600x400/1E3A8A/ffffff?text=Guided+Trek+to+Dong+Peak" class="w-full rounded-lg mb-4" alt="Adventure placeholder">
+                    <h4 class="text-3xl font-extrabold text-white mb-2">
+                        TREK TO THE FIRST SUNRISE
+                    </h4>
+                    <p class="text-orange-400 font-semibold">
+                        Guided treks, nature walks, and birdwatching in the pristine Eastern Himalayas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Cultural Event Participation & Pageant Registration -->
+    <section id="registration" class="section-anchor py-20 px-4 sm:px-8 bg-slate-800">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-orange-500 text-center mb-12">
+                CULTURAL REGISTRATION & PAGEANT
+            </h3>
+            <p class="text-xl text-slate-300 text-center max-w-3xl mx-auto mb-10">
+                Register to showcase your talent! We welcome participants for traditional dance, music, and the prestigious **Miss Sunrise Anjaw Pageant** showcasing Mishmi and Meyor traditions.
+            </p>
+
+            <div class="bg-slate-900 p-8 md:p-10 rounded-xl shadow-2xl border-t-4 border-orange-600">
+                <h4 class="text-3xl font-bold text-white mb-6 text-center">Participation Form</h4>
+                
+                <form id="culturalRegistrationForm" class="space-y-6">
+                    <div>
+                        <label for="fullName" class="block text-sm font-medium text-slate-300 mb-1">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your Name" required class="w-full p-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-orange-500 focus:border-orange-500">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required class="w-full p-3 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-orange-500 focus:border-orange-500">
+                    </div>
+
+                    <div>
+                        <label for="eventSelect" class="block text-sm font-medium text-slate-300 mb-1">Select Event Category</label>
+                        <select id="eventSelect" name="eventSelect" required class="w-full p-3 bg-slate-700 border border-slate-600 rounded-lg text-white appearance-none focus:ring-orange-500 focus:border-orange-500">
+                            <option value="" disabled selected>Choose an event...</option>
+                            <option value="pageant">Miss Sunrise Anjaw Pageant</option>
+                            <option value="dance">Traditional Dance Performance (Tanggong, etc.)</option>
+                            <option value="music">Local Music/Folk Fusion</option>
+                            <option value="storytelling">Tribal Storytelling/Poetry</option>
+                        </select>
+                    </div>
+
+                    <div class="flex items-center">
+                        <input id="agreeTerms" name="agreeTerms" type="checkbox" required class="h-4 w-4 text-orange-600 bg-slate-700 border-slate-600 rounded focus:ring-orange-500">
+                        <label for="agreeTerms" class="ml-2 block text-sm text-slate-400">
+                            I agree to the <a href="#" class="text-orange-400 hover:text-orange-500 font-semibold">Rules and Regulations</a>.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full py-3 bg-orange-600 text-white text-lg font-bold rounded-lg hover:bg-orange-700 transition duration-300 shadow-xl">
+                        REGISTER FOR EVENT
+                    </button>
+                    <p id="registrationMessage" class="mt-4 text-center text-green-400 font-semibold hidden">Registration successful! We will contact you soon.</p>
+                </form>
+            </div>
+        </div>
+        <script>
+            // Basic JavaScript for form submission feedback
+            document.getElementById('culturalRegistrationForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                // In a real app, this is where you'd send data to a backend (like Firestore)
+                const message = document.getElementById('registrationMessage');
+                const selectedValue = document.getElementById('eventSelect').options[document.getElementById('eventSelect').selectedIndex].text;
+                message.textContent = `Thank you, ${document.getElementById('fullName').value}! We received your registration for ${selectedValue}.`;
+                message.classList.remove('hidden');
+                this.reset();
+                
+                // Hide message after 5 seconds
+                setTimeout(() => {
+                    message.classList.add('hidden');
+                }, 5000);
+            });
+        </script>
+    </section>
+
+    <!-- Organizing Committee Section (Background color changed for alternating pattern) -->
+    <section id="committee" class="section-anchor py-20 px-4 sm:px-8 bg-slate-900 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-orange-500 mb-12">
+                ORGANIZING COMMITTEE & PARTNERS
+            </h3>
+            <p class="text-lg text-slate-300 max-w-3xl mx-auto mb-10">
+                The Sunrise Music Festival is a collaborative effort between local community bodies, the District Administration, and dedicated cultural promoters.
+            </p>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                <div class="p-6 bg-slate-800 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/100x100/374151/ffffff?text=C1" class="rounded-full mx-auto mb-4" alt="Committee Member 1">
+                    <h4 class="text-xl font-bold text-white">Shri A. Tago</h4>
+                    <p class="text-sm text-orange-400">Chief Coordinator</p>
+                    <p class="text-xs text-slate-400 mt-2">District Administration Liaison</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/100x100/374151/ffffff?text=C2" class="rounded-full mx-auto mb-4" alt="Committee Member 2">
+                    <h4 class="text-xl font-bold text-white">Smt. M. Kaman</h4>
+                    <p class="text-sm text-orange-400">Cultural Director</p>
+                    <p class="text-xs text-slate-400 mt-2">Mishmi Cultural Society</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/100x100/374151/ffffff?text=C3" class="rounded-full mx-auto mb-4" alt="Committee Member 3">
+                    <h4 class="text-xl font-bold text-white">Mr. J. Singh</h4>
+                    <p class="text-sm text-orange-400">Logistics Head</p>
+                    <p class="text-xs text-slate-400 mt-2">Hospitality & Transport</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl shadow-xl border-t-4 border-orange-600">
+                    <img src="https://placehold.co/100x100/374151/ffffff?text=C4" class="rounded-full mx-auto mb-4" alt="Committee Member 4">
+                    <h4 class="text-xl font-bold text-white">YOUTH COMMITTEE</h4>
+                    <p class="text-sm text-orange-400">Volunteer & Outreach</p>
+                    <p class="text-xs text-slate-400 mt-2">Dedicated local support team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logistics Section (Background color changed for alternating pattern) -->
+    <section id="logistics" class="section-anchor py-20 px-4 sm:px-8 bg-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-white text-center mb-16">
+                FESTIVAL LOGISTICS & PLANNING
+            </h3>
+            
+            <div class="grid lg:grid-cols-3 gap-12">
+                
+                <!-- Sub-Section 1: Accommodation Facility -->
+                <div id="accommodation" class="lg:col-span-1 space-y-6 p-6 bg-slate-900 rounded-xl shadow-2xl border-l-4 border-orange-600">
+                    <h4 class="text-3xl font-extrabold text-orange-500">
+                        ACCOMMODATION
+                    </h4>
+                    <p class="text-slate-300">
+                        Lodging is managed to ensure an authentic and comfortable Himalayan experience. **Camping is the primary on-site option** and requires a Camping Add-On pass.
+                    </p>
+                    <ul class="text-slate-300 space-y-2 list-disc list-inside ml-4">
+                        <li class="font-semibold text-white">Designated Festival Campsite (Pre-booked only)</li>
+                        <li>**Homestay Network:** Limited beds available in nearby Dong/Kaho villages for an immersive cultural stay. Book early!</li>
+                        <li>Facilities: Shared, clean sanitary facilities and communal bonfire areas.</li>
+                    </ul>
+                    <a href="#tickets" class="inline-block text-orange-400 font-semibold hover:text-orange-300">Check Camping Pass Details & Pricing &rarr;</a>
+                </div>
+
+                <!-- Sub-Section 2: Transportation -->
+                <div id="transportation" class="lg:col-span-1 space-y-6 p-6 bg-slate-900 rounded-xl shadow-2xl border-l-4 border-orange-600">
+                    <h4 class="text-3xl font-extrabold text-orange-500">
+                        TRANSPORTATION
+                    </h4>
+                    <p class="text-slate-300">
+                        Anjaw is remote. The nearest rail/air hub is **Tinsukia, Assam**. From there, you must arrange road travel.
+                    </p>
+                    <ul class="text-slate-300 space-y-2 list-disc list-inside ml-4">
+                        <li class="font-semibold text-white">**Dedicated Festival Bus:** Shuttle service runs daily from Hayuliang to Dong Village (must be pre-booked).</li>
+                        <li>**Inner Line Permit (ILP):** MANDATORY for entry into Arunachal Pradesh. Obtain this online well in advance.</li>
+                        <li>Parking: Limited parking available for private vehicles at designated lot near the venue.</li>
+                    </ul>
+                    <a href="#" class="inline-block text-orange-400 font-semibold hover:text-orange-300">Download Transport Map & Bus Schedule &rarr;</a>
+                </div>
+
+                <!-- Sub-Section 3: Local Store & Essentials -->
+                <div id="localstore" class="lg:col-span-1 space-y-6 p-6 bg-slate-900 rounded-xl shadow-2xl border-l-4 border-orange-600">
+                    <h4 class="text-3xl font-extrabold text-orange-500">
+                        LOCAL STORE & ESSENTIALS
+                    </h4>
+                    <p class="text-slate-300">
+                        Please pack sufficiently. Basic supplies and emergency services are available, but retail is limited.
+                    </p>
+                    <ul class="text-slate-300 space-y-2 list-disc list-inside ml-4">
+                        <li class="font-semibold text-white">**Village Mini-Mart:** Sells packaged food, water, batteries, and basic toiletries (cash only).</li>
+                        <li>First Aid & Medical Post: Located near the main stage, operational 24/7.</li>
+                        <li>**Connectivity:** Mobile network signal is sporadic (mainly BSNL). No ATM facilities in Dong Village.</li>
+                    </ul>
+                    <a href="#" class="inline-block text-orange-400 font-semibold hover:text-orange-300">View Recommended Packing List &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Sponsors -->
+    <section id="sponsors" class="section-anchor py-20 px-4 sm:px-8 bg-slate-900 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-orange-500 mb-12">
+                OUR PARTNERS & SPONSORS
+            </h3>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
+                We are proud to collaborate with organizations dedicated to promoting sustainable tourism, cultural preservation, and the arts in Northeast India.
+            </p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-center bg-slate-800 p-8 rounded-xl shadow-inner">
+                <!-- Sponsor 1 -->
+                <div class="p-4 bg-white/5 rounded-lg">
+                    <img src="https://placehold.co/200x80/292524/F97316?text=STATE+TOURISM" alt="State Tourism Logo" class="w-full h-auto" onerror="this.onerror=null; this.src='https://placehold.co/200x80/292524/F97316?text=STATE+TOURISM'">
+                </div>
+                <!-- Sponsor 2 -->
+                <div class="p-4 bg-white/5 rounded-lg">
+                    <img src="https://placehold.co/200x80/292524/F97316?text=ADVENTURE+GEAR" alt="Adventure Gear Logo" class="w-full h-auto" onerror="this.onerror=null; this.src='https://placehold.co/200x80/292524/F97316?text=ADVENTURE+GEAR'">
+                </div>
+                <!-- Sponsor 3 -->
+                <div class="p-4 bg-white/5 rounded-lg">
+                    <img src="https://placehold.co/200x80/292524/F97316?text=FESTIVAL+BEVERAGE" alt="Beverage Partner Logo" class="w-full h-auto" onerror="this.onerror=null; this.src='https://placehold.co/200x80/292524/F97316?text=FESTIVAL+BEVERAGE'">
+                </div>
+                <!-- Sponsor 4 -->
+                <div class="p-4 bg-white/5 rounded-lg">
+                    <img src="https://placehold.co/200x80/292524/F97316?text=COMMUNITY+BANK" alt="Community Bank Logo" class="w-full h-auto" onerror="this.onerror=null; this.src='https://placehold.co/200x80/292524/F97316?text=COMMUNITY+BANK'">
+                </div>
+                <!-- Sponsor 5 -->
+                <div class="p-4 bg-white/5 rounded-lg">
+                    <img src="https://placehold.co/200x80/292524/F97316?text=MEDIA+PARTNER" alt="Media Partner Logo" class="w-full h-auto" onerror="this.onerror=null; this.src='https://placehold.co/200x80/292524/F97316?text=MEDIA+PARTNER'">
+                </div>
+            </div>
+            
+            <a href="#" class="mt-10 inline-block py-3 px-8 border-2 border-orange-600 text-orange-400 font-semibold rounded-full hover:bg-orange-600 hover:text-white transition duration-300">
+                BECOME A SPONSOR
+            </a>
+        </div>
+    </section>
+
+    <!-- Tickets Section (Existing content) -->
+    <section id="tickets" class="section-anchor py-20 px-4 sm:px-8 bg-slate-800 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-5xl font-extrabold text-orange-500 mb-10">
+                GET YOUR PASSES
+            </h3>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-12">
+                Secure your spot to witness the first sunrise of 2026 and experience the unique cultural mosaic of Anjaw. Limited camping spots available!
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Pass 1 -->
+                <div class="bg-slate-900 p-6 rounded-xl shadow-2xl border-2 border-slate-700">
+                    <h4 class="text-3xl font-bold text-white mb-2">DAY PASS</h4>
+                    <p class="text-slate-400 mb-4">Single-day access (Excl. Dec 31)</p>
+                    <div class="text-4xl font-extrabold text-orange-500 mb-6">₹ 2,500</div>
+                    <ul class="text-slate-300 space-y-2 text-left mx-auto max-w-[200px] mb-6">
+                        <li>Access to all stages</li>
+                        <li class="line-through text-slate-500">Camping access</li>
+                        <li>Cultural workshops</li>
+                        <li class="line-through text-slate-500">NYE Midnight performance</li>
+                    </ul>
+                    <a href="#" class="inline-block w-full py-3 bg-white/10 text-white font-bold rounded-lg hover:bg-white/20 transition duration-300">SELECT</a>
+                </div>
+
+                <!-- Pass 2 (Recommended) -->
+                <div class="bg-orange-600/10 p-6 rounded-xl shadow-2xl border-4 border-orange-600 transform scale-105">
+                    <span class="inline-block bg-orange-600 text-white text-sm font-bold py-1 px-4 rounded-full mb-3">RECOMMENDED</span>
+                    <h4 class="text-3xl font-bold text-white mb-2">FESTIVAL PASS</h4>
+                    <p class="text-orange-200 mb-4">5 days & 4 nights (Dec 29 - Jan 2)</p>
+                    <div class="text-5xl font-extrabold text-orange-500 mb-6">₹ 12,000</div>
+                    <ul class="text-white space-y-2 text-left mx-auto max-w-[200px] mb-6">
+                        <li>Full stage access</li>
+                        <li><span class="font-bold">Includes Sunrise Trek</span></li>
+                        <li>NYE Midnight performance</li>
+                        <li>Exclusive merch discount</li>
+                    </ul>
+                    <a href="#" class="inline-block w-full py-3 bg-orange-600 text-white text-lg font-bold rounded-lg hover:bg-orange-700 transition duration-300 shadow-xl">BUY NOW</a>
+                </div>
+
+                <!-- Pass 3 (Renamed for clarity, since Accomodation is now a separate section) -->
+                <div class="bg-slate-900 p-6 rounded-xl shadow-2xl border-2 border-slate-700">
+                    <h4 class="text-3xl font-bold text-white mb-2">CAMPING ADD-ON</h4>
+                    <p class="text-slate-400 mb-4">Add to any Festival Pass</p>
+                    <div class="text-4xl font-extrabold text-orange-500 mb-6">₹ 4,000</div>
+                    <ul class="text-slate-300 space-y-2 text-left mx-auto max-w-[200px] mb-6">
+                        <li>Designated campsite spot</li>
+                        <li>Access to sanitary facilities</li>
+                        <li><span class="font-bold text-white">Local Homestay options available</span></li>
+                        <li>Bonfire sessions</li>
+                    </ul>
+                    <a href="#" class="inline-block w-full py-3 bg-white/10 text-white font-bold rounded-lg hover:bg-white/20 transition duration-300">SELECT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-orange-600/30 py-10 px-4 sm:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="mb-6">
+                <h4 class="text-3xl font-extrabold text-orange-500 tracking-wider">
+                    SUNRISE <span class="text-white">FEST</span>
+                </h4>
+                <p class="text-sm text-slate-400 mt-1">Anjaw District, Arunachal Pradesh, India</p>
+            </div>
+            
+            <div class="flex justify-center space-x-6 text-slate-400 mb-6">
+                <!-- Placeholder Icons (Lucide is assumed/simulated) -->
+                <a href="#" class="hover:text-orange-500 transition duration-300">Facebook</a>
+                <a href="#" class="hover:text-orange-500 transition duration-300">Instagram</a>
+                <a href="#" class="hover:text-orange-500 transition duration-300">X (Twitter)</a>
+            </div>
+
+            <div class="text-sm text-slate-500">
+                &copy; 2025 Sunrise Music Festival. A celebration of Mishmi & Meyor culture.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
